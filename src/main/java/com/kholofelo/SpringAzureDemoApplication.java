@@ -11,7 +11,7 @@ public class SpringAzureDemoApplication {
 
 	@GetMapping("/message")
 	public String message(){
-		return "Spring Boot Application deployed successfully in MicroSoft Azure";
+		return "Spring Boot Application deployed successfully in MicroSoft Azure platform";
 	}
 
 	public static void main(String[] args) {
